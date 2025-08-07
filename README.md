@@ -4,7 +4,8 @@ This repository accompanies our CIDR'26 submission:  **“Hash Joins Meet CXL: A
 
 
 ## Prerequisites
-1. A genuine CXL type-3 memory device
+- A system equipped with a **genuine CXL Type-3 memory device**.
+
 
 ## Dependencies
 ```
