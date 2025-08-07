@@ -1,0 +1,5 @@
+link_libraries(-lm -pthread)
+aux_source_directory(. DIR_LIB_SRCS)
+add_library(Algo SHARED ${DIR_LIB_SRCS})
+find_package(OpenMP REQUIRED)
+target_link_libraries(Algo PRIVATE OpenMP::OpenMP_C)

@@ -1,0 +1,5 @@
+link_libraries(-lm -lpmem -pthread -lconfig -lnuma)
+aux_source_directory(. DIR_LIB_SRCS)
+add_library(Inc SHARED ${DIR_LIB_SRCS})
+find_package(OpenMP REQUIRED)
+target_link_libraries(Inc PRIVATE OpenMP::OpenMP_C)
