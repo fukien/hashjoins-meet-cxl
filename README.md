@@ -21,7 +21,7 @@ sudo apt-installl libnuma-dev
 
 ## Reproducing Experiments 
 ```
-cd scripts/20250806-scripts
+cd scripts/20250805-scripts
 bash test_hc_join.sh
 bash test_ratio.sh
 python plot_pkfk.py
